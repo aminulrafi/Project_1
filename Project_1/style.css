@@ -1,0 +1,79 @@
+body{
+    font-family: 'Supermercado One', cursive;
+    margin: 0px;
+}
+
+.spa{
+    color: indianred;
+}
+
+.first{
+    float: left;
+    width: 40%;
+    margin: 35px;
+}
+
+#img1{
+    width: 45%;
+    margin-left: 75%;
+    height: 300px;
+
+}
+
+.topbanner{
+    background-image: url("image/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+section{
+    height: 400px;
+}
+
+#hirebutton{
+    text-decoration: none;
+    width: 50px;
+    height: 25px;
+    padding: 5px;
+    border: solid 2px lightpink;
+    border-radius: 2px;
+    background-image: linear-gradient(45deg,lightSalmon,tomato);
+    color: black;
+}
+
+#img2{
+    width: 45%;
+    height: 300px;
+    margin-left: 25%;
+}
+
+.dream-area{
+    background-image: url("image/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.single{
+    box-shadow: 10px 10px 40px gray ;
+    border-radius: 5px;
+    height: 60%;
+    padding: 10px;
+    background-color: white;
+}
+#full{
+    border-left: 7px solid;
+    border-image: linear-gradient(lightSalmon,tomato);
+    border-image-slice: 1;
+}
+#half{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(180, 122, 255),rgb(214, 10, 136));
+    border-image-slice: 1;
+}
+.experience{
+    background-image: url("image/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+footer p{
+    text-align: center;
+}
